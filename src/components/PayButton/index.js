@@ -16,7 +16,7 @@ export default function PayButton({ onPress, focused }) {
           focused
             ? [
                 `${colors.tab.mainItem.inactive.colorX}`,
-                `${colors.tab.mainItem.inactive.colorX}`,
+                `${colors.tab.mainItem.inactive.colorY}`,
               ]
             : [
                 `${colors.tab.mainItem.active.colorX}`,

@@ -19,7 +19,7 @@ export default {
         inactive: {
           colorX: '#fff',
           colorY: '#ccc',
-          text: '#fff',
+          text: '#000',
         },
       },
     },

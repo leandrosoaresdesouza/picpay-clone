@@ -11,8 +11,5 @@ export const Button = styled(LinearGradient)`
 
 export const Label = styled.Text`
   font-size: 12px;
-  color: ${(focused) =>
-    focused
-      ? `${(props) => props.theme.colors.tab.mainItem.inactive.text}`
-      : `${(props) => props.theme.colors.tab.mainItem.active.text}`};
+  color: ${({ focused }) => (focused ? '#000' : '#fff')};
 `;
